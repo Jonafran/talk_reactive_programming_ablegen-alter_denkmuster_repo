@@ -16,6 +16,22 @@ header {
   text-align: center;
 }
 
+.button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: var(--code-base);
+  color: #fff;
+}
+
 #to_the_moon {
   display: inline-block;
   outline: none;
@@ -69,4 +85,39 @@ pre {
 .logo {
   width: 100%;
   height: 100px;
+}
+
+.counter {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: var(--code-base);
+  color: #fff;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.control_element {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 14px 24px;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: var(--code-base);
+  color: #fff;
 }

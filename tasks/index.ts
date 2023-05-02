@@ -10,3 +10,6 @@ export { result as result_declarative_task_03 } from './imperative_vs_declarativ
 
 // Task: reactive_walkthrough
 export { result as result_reactive_walkthrough_01_observables } from './reactive_walkthrough/solutions/01_observable';
+
+// Task: reactive_timer
+export { result as result_reactive_timer_01 } from './reactive_timer/solutions/task_01';
