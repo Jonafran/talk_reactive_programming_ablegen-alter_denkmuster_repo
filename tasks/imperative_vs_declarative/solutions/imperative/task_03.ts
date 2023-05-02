@@ -34,7 +34,6 @@ for (var i = 1; i < filteredCandidates.length; i++) {
   }
 }
 
-console.log(filteredCandidates);
 for (let i = 0; i < filteredCandidates.length; i++) {
   let filteredCandidate = filteredCandidates[i];
   const { firstName, lastName } = filteredCandidate;

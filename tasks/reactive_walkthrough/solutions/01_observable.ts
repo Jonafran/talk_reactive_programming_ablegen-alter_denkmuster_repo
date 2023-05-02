@@ -4,6 +4,6 @@ import { Observable } from 'rxjs';
  * export the value as result
  * */
 
-export let result: unknown;
-const DataStream$ = new Observable((observer) => observer.next('Foo'));
-DataStream$.subscribe((value) => (result = value));
+export const result = new Observable((observer) =>
+  observer.next('Foo')
+).subscribe(console.log);
