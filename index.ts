@@ -26,9 +26,7 @@ import './style.css';
 //  ಠ_ಠ                              WORKING SAMPLE                              ಠ_ಠ
 // ===================================================================================
 // import { renderResult_Task_ReactiveTimer as renderResult } from './util';
-// import { result_reactive_timer_01 as result } from './tasks';
-// renderResult(result);
+// renderResult();
 // ===================================================================================
 import { renderResult_Task_ReactiveTimer as renderResult } from './util';
-import { result_reactive_timer_01 as result } from './tasks';
-renderResult(result);
+renderResult();

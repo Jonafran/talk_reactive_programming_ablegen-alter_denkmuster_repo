@@ -91,8 +91,7 @@ pre {
   display: inline-block;
   outline: none;
   cursor: pointer;
-  font-size: 40px;
-  line-height: 100%;
+  font-size: 50px;
   font-weight: 600;
   border-radius: 8px;
   padding: 14px 24px;
@@ -101,6 +100,7 @@ pre {
     -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
   background: var(--code-base);
   color: #fff;
+  margin-bottom: 20px;
 }
 .controls {
   display: flex;
@@ -111,10 +111,11 @@ pre {
 .control_element {
   cursor: pointer;
   font-size: 16px;
+  width: 100px;
   line-height: 20px;
   font-weight: 600;
-  border-radius: 8px;
-  margin: 20px;
+  border-radius: 2px;
+  margin: 10px;
   padding: 14px 24px;
   transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
     -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
