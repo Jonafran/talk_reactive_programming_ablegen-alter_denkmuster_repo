@@ -1,3 +1,5 @@
+import { Subscription } from 'rxjs';
+
 export function renderResult_Task_ImperativeVsDeclarative(
   result: unknown
 ): void {
@@ -25,7 +27,8 @@ export function renderResult_Task_ReactiveWalkthrough(result: unknown): void {
   };
 }
 
-export function renderResult_Task_ReactiveTimer(result: unknown): void {
+export function renderResult_Task_ReactiveTimer(result: Subscription): void {
+  result.unsubscribe();
   document.getElementById('to_the_moon').onclick = function () {
     document.getElementById('counter_container').style.visibility = 'visible';
   };

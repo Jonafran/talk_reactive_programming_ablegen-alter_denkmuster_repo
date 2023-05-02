@@ -13,3 +13,4 @@ export { result as result_reactive_walkthrough_01_observables } from './reactive
 
 // Task: reactive_timer
 export { result as result_reactive_timer_01 } from './reactive_timer/solutions/task_01';
+export { result as result_reactive_timer_02 } from './reactive_timer/solutions/task_02';
