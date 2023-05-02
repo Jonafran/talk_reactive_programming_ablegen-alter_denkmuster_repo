@@ -25,7 +25,7 @@ export function renderResult_Task_ReactiveWalkthrough(result: unknown): void {
   };
 }
 
-export function renderResult_Task_ReactiveTimer(): void {
+export function renderResult_Task_ReactiveTimer(result: unknown): void {
   document.getElementById('to_the_moon').onclick = function () {
     document.getElementById('counter_container').style.visibility = 'visible';
   };

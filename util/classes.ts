@@ -1,29 +1,13 @@
-import { Observable } from 'rxjs';
+import { fromEvent, Observable } from 'rxjs';
 
 export class Timer {
-  start$ = new Observable(
-    (observer) =>
-      (document.getElementById('start').onclick = function () {
-        observer.next();
-      })
-  );
+  start$ = fromEvent(document.getElementById('start'), 'click');
 
-  pause$ = new Observable(
-    (observer) =>
-      (document.getElementById('pause').onclick = function () {
-        observer.next();
-      })
-  );
+  pause$ = fromEvent(document.getElementById('pause'), 'click');
 
-  reset$ = new Observable(
-    (observer) =>
-      (document.getElementById('reset').onclick = function () {
-        observer.next();
-      })
-  );
+  reset$ = fromEvent(document.getElementById('reset'), 'click');
 
   renderCounter(value: number): void {
-    console.log(value);
     document.getElementById('counter').innerText = '' + value;
   }
 }
