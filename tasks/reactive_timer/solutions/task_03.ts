@@ -24,6 +24,7 @@ export const result = counter.reset$
         counter.start$.pipe(map(() => true)),
         counter.pause$.pipe(map(() => false))
       ).pipe(
+        startWith(false),
         switchMap((isTicking) => (isTicking ? timer(0, 100) : NEVER)),
         scan((acc) => ++acc),
         startWith(0)
