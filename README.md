@@ -1,3 +1,9 @@
-# talk_reactive_programming_ablegen-alter_denkmuster_repo
+# Reactive Programming
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/talk-reactive-programming-ablegen-alter-denkmuste-qzteh7)
+## Ablegen alter Denkmuster
+
+## Mathema Campus
+
+## By Jonathan Stellwag
+
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/mathema-campus-talk-reactive-programming)
