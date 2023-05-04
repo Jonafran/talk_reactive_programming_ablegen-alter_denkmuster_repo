@@ -28,6 +28,6 @@ import './style.css';
 // import { renderResult_Task_ReactiveTimer as renderResult } from './util';
 // renderResult();
 // ===================================================================================
-import { renderResult_Task_ReactiveTimer as renderResult } from './util';
+import { renderRxJS as render } from './util';
 import { result_reactive_timer_02 as result } from './tasks';
-renderResult(result);
+render(result);
