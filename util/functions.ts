@@ -20,17 +20,21 @@ export function renderRxJS(result: Observable<number>): void {
     ).style.visibility = 'visible';
     document.getElementById('result_reactive_walkthrough').style.visibility =
       'visible';
+    if (result != undefined) {
+      result.subscribe((value) => {
+        document.getElementById('result_reactive_walkthrough').textContent =
+          '' + value;
+      });
+    }
   };
-  if (result != undefined) {
-    result.subscribe((value) => {
-      document.getElementById('result_reactive_walkthrough').textContent =
-        '' + value;
-    });
-  }
 }
 
-export function renderTimer(result: Observable<number>): void {
+export function renderTimer(result: any): void {
   document.getElementById('to_the_moon').onclick = function () {
     document.getElementById('counter_container').style.visibility = 'visible';
+
+    if (result != undefined) {
+      result.subscribe();
+    }
   };
 }
