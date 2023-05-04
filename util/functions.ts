@@ -15,21 +15,21 @@ export function renderAstronaut(result: unknown): void {
 
 export function renderRxJS(result: Observable<number>): void {
   document.getElementById('to_the_moon').onclick = function () {
-    if (result != undefined) {
-      result.subscribe((value) => {
-        document.getElementById('result_reactive_walkthrough').textContent =
-          '' + value;
-      });
-    }
     document.getElementById(
       'result_reactive_walkthrough_header'
     ).style.visibility = 'visible';
     document.getElementById('result_reactive_walkthrough').style.visibility =
       'visible';
   };
+  if (result != undefined) {
+    result.subscribe((value) => {
+      document.getElementById('result_reactive_walkthrough').textContent =
+        '' + value;
+    });
+  }
 }
 
-export function renderTimer(result: unknown): void {
+export function renderTimer(result: Observable<number>): void {
   document.getElementById('to_the_moon').onclick = function () {
     document.getElementById('counter_container').style.visibility = 'visible';
   };

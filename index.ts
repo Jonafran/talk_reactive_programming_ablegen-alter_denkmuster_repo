@@ -29,5 +29,5 @@ import './style.css';
 // renderResult();
 // ===================================================================================
 import { renderRxJS as render } from './util';
-import { result_rxjs_04 as result } from './tasks';
+import { result_timer_01 as result } from './tasks';
 render(result);
