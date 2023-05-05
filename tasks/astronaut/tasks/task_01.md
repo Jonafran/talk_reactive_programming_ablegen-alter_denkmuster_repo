@@ -1,4 +1,4 @@
-# Task 3 - Kandidaten aussortieren
+# Task 1 - Kandidaten aussortieren
 
 ### Die Kandidaten werden nach Kriterien gefiltert
 
